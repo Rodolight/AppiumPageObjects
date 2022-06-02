@@ -14,6 +14,7 @@ public class ScreenBase {
 	
 	public int TimeoutValue = 5;
 	
+	// screen base constructor
 	public ScreenBase(AppiumDriver<MobileElement> driver) {
 		ScreenBase.driver = driver;
 		}
